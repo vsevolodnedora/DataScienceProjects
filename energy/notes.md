@@ -16,6 +16,18 @@
 - __Info__: 
 [github](https://github.com/Jaoaud/Capstone_Energy)
 
+### EnergyGrid - ImbalanceForcasting - Belgium - GivenData 
+- Forecasting Grid System Imbalance: Case Study in Belgium
+- __Type__: master thesis project
+- __Geography__: Belgium
+- __Language__: python (notebooks & scripts)
+- __Year__: 2023
+- __Data__: Elia Group; private? Given in paraquet files
+- __Info__: extensiv research in data analysis and simple modeling; with paper
+[github](https://github.com/tomasurdiales/System_Imbalance_Forecasting)
+
+
+
 
 ### ElectricityMarket - PriceForecast - England - PulledData
 - 
@@ -85,6 +97,17 @@ __Data__: from [kaggle](https://www.kaggle.com/c/vsb-power-line-fault-detection/
 - __Info__: Data analysis and modeling uisng MLP and SVM
 [github](https://github.com/rashuvro/Predicting_blackouts_in_smart_grids_using_Machine_learning)
 
+
+### EnergyGrid - ImbalanceForcast - NoData - 
+- Predicting Energy Imbalance in the German Electricity Grid with Data Analysis and Machine Learning tools
+- __Type__: data analysis and forecast
+- __Geography__: Germany
+- __Language__: R
+- __Year_s_: 2024
+- __Data__: not avaialble (claimed, public
+- __Info__: Very good documentation
+[github](https://github.com/NoranneGabouge/power_imbalance)
+
 ### 
 - 
 - __Type__:
@@ -93,4 +116,24 @@ __Data__: from [kaggle](https://www.kaggle.com/c/vsb-power-line-fault-detection/
 - __Year__:
 - __Data__:
 - __Info__:
-[github] s
+[github]
+
+### 
+- 
+- __Type__:
+- __Geography__:
+- __Language__:
+- __Year__:
+- __Data__:
+- __Info__:
+[github]
+
+### 
+- 
+- __Type__:
+- __Geography__:
+- __Language__:
+- __Year__:
+- __Data__:
+- __Info__:
+[github]
