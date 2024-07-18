@@ -108,18 +108,18 @@ __Data__: from [kaggle](https://www.kaggle.com/c/vsb-power-line-fault-detection/
 - __Info__: Very good documentation
 [github](https://github.com/NoranneGabouge/power_imbalance)
 
-### 
+### PowerPlant - GenerationForcast - PrivateData - 
 - 
-- __Type__:
-- __Geography__:
-- __Language__:
-- __Year__:
-- __Data__:
-- __Info__:
-[github]
+- __Type__: data analysis and forcast
+- __Geography__: unknown
+- __Language__: python (notebook)
+- __Year__: 2021
+- __Data__: Kaggle and private sources
+- __Info__: full report and presenation, but data is not from Kaggle
+[github](https://github.com/Bench-amblee/solar_power_prediction_model)
 
 ### 
-- 
+- Capstone Project for Springboard Data Science Bootcamp
 - __Type__:
 - __Geography__:
 - __Language__:
