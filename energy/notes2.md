@@ -87,6 +87,8 @@
 
 # Energy projects with ENTSOE data
 
+## Project to check: 1,2,15,18
+
 1. [derevirn/renewcast](https://github.com/derevirn/renewcast)
 	- [app](http://renewcast.giannis.io/)
 	- APP; pulls from ENTSOE; forecasts ARIMA; simple app
@@ -97,8 +99,6 @@
 	- Extremely well documented
 	- API key used: 6e68642c-8403-4caa-af31-bda40b8c67f6
 	
----
-
 3. [Deutschiftland/energiewende-entsoe-data](https://github.com/Deutschiftland/energiewende-entsoe-data)
 	- Data from 2015 to 2023 for CO2 and energy pulled with API, plotted
 	
@@ -136,4 +136,32 @@
 13. [MathiasSteilen/RWE-ETH-Power-Trading](https://github.com/MathiasSteilen/RWE-ETH-Power-Trading)
 	- ETH Zurich Statistics Lab: Collaborating with RWE on European Cross Border Power Trading
 	- Examples on loading / visualizing data; Large Repo
+	
+14. [Guli-Y/ElectricityPricePredictor](https://github.com/Guli-Y/ElectricityPricePredictor)
+	- Developed a time series model for forecasting day-ahead electricity prices of biding zone DK1 (Denmark) using data from Entsoe and OpenWeatherMap. Model performance is evaluated using walk-forward validation and MAPE/MASE
+	
+15. [afshinfaramarzi/Energy-Demand-electricity-price-Forecasting](https://github.com/afshinfaramarzi/Energy-Demand-electricity-price-Forecasting)
+	- Electricity price (energy demand) forecasting using different ML, DL, stacked DL and hybrid methods (XGBoost, GRU, LSTM, CNN, CNN-LSTM, LSTM-Attention, Hybrid GRU-XGBoost and Hybrid LSTM-Attention-XGBoost)..
+	- Uses ENTSO-E, openweather, and Spanish TSO data
+	- VERY GOOD EDA
 
+16. [JonJae/TimeSeriesPrediction_FeedInMngmt](https://github.com/JonJae/TimeSeriesPrediction_FeedInMngmt)
+	- Prediction of Renewable Power Loss caused by Feed-in Management Events
+	- Final project at the Data Science Bootcamp @neuefische. This project has been developed in 4 weeks in the fall of 2020 by Tjade Appel (LinkedIn / GitHub) and Jonas Jaenicke (LinkedIn / GitHub). Please feel free to contact us.
+	- NO DATA ; wery good EDA ; targreted to a single windmill
+
+17. [MohamedAitHassoun/Predictions-of-solar-energy-production-using-the-LSTM-model-with-an-attention-mechanism](https://github.com/MohamedAitHassoun/Predictions-of-solar-energy-production-using-the-LSTM-model-with-an-attention-mechanism)
+	- Predictions of Solar Energy Production Using the LSTM Model with an Attention Mechanism
+	- Uses 50Hertz data pulled from their page via http
+	
+18. [pohlchri/transformer_time_thesis](https://github.com/pohlchri/transformer_time_thesis)
+	- Potential of transformer time series models for the energy sector - Master's Thesis by Christin Pohl
+	- Data from [OpenPowerSystemData](https://data.open-power-system-data.org/time_series/2020-10-06) file: time_series_60min_singleindex.csv 
+	- Data was prepared using [GitHub](https://github.com/Open-Power-System-Data/time_series)
+	
+19. [JulesJ1/Energy_Consumption_Forecasting](https://github.com/JulesJ1/Energy_Consumption_Forecasting)
+	- Forecasting Energy Consumption Using Machine Learning
+	- Uses ENTSO-E and openweather to get data (no keys) ; NO DOCUMENTATION ; WITH APP	
+	
+	
+	
