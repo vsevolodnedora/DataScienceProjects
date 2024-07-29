@@ -32,14 +32,13 @@
 [ENTSNOE](https://transparency.entsoe.eu/dashboard/show)
 	- Sources: 
 		- [statistics](https://www.entsoe.eu/data/power-stats/)
-	- [Python](https://pypi.org/project/entsoe-py/)
-	- [github](https://github.com/EnergieID/entsoe-py)
+	- [python API](https://pypi.org/project/entsoe-py/) [github](https://github.com/EnergieID/entsoe-py)
+	- [python API with prices](https://pypi.org/project/entsoe-client/) [github](https://github.com/DarioHett/entsoe-client)
 	- [info](https://thesmartinsights.com/how-to-query-data-from-the-entso-e-transparency-platform-using-python/)
 	- Projects that use it: 1., 2.
 	- API keys found
 		- 94aa148a-330b-4eee-ba0c-8a5eb0b17825
-		- c93c7111-9e18-49be-b42c-ceeed9aabfb2
-		- 6e68642c-8403-4caa-af31-bda40b8c67f6
+		- c93c7111-9e18-49be-b42c-ceeed9aabfb2s
 	- Repos: 7.
 
 [JAO](https://www.jao.eu/) [jao-api](https://www.jao.eu/page-api/market-data) 
@@ -87,7 +86,7 @@
 
 # Energy projects with ENTSOE data
 
-## Project to check: 1,2,15,18
+## Project to check: 1,2,15,18,20,22
 
 1. [derevirn/renewcast](https://github.com/derevirn/renewcast)
 	- [app](http://renewcast.giannis.io/)
@@ -162,6 +161,18 @@
 19. [JulesJ1/Energy_Consumption_Forecasting](https://github.com/JulesJ1/Energy_Consumption_Forecasting)
 	- Forecasting Energy Consumption Using Machine Learning
 	- Uses ENTSO-E and openweather to get data (no keys) ; NO DOCUMENTATION ; WITH APP	
+	
+20. [tightdelay/Short_Term_Carbon_Intensity_Forecasting](https://github.com/tightdelay/Short_Term_Carbon_Intensity_Forecasting)
+	- Keywords: smart home, carbon emissions, forcasting, temporal fusions transformers, 50Hertz, Aprion, Tennet, Transnet
+	- This thesis focuses on predicting carbon intensity across the four German Transmission System Operators (TSO) zones: 50Hertz, Amprion, Tennet, and TransnetBW. The data sets are enriched by weather and market price data.
+	
+21. [https://github.com/DarioHett/entsoe-client](entsoe-client)
+	- Formulate human-readable queries and retrieve data from ENTSO-E into pandas.DataFrame format.
+	- Allows to get a day-ahead electricity price [USE AS A LIBRARY](https://pypi.org/project/entsoe-client/)
+	
+22. [Fastjur/S.C.A.L.E.](https://github.com/Fastjur/S.C.A.L.E.) 
+	- S.C.A.L.E. (Scheduler for Carbon-Aware Load Execution) [thesis](https://repository.tudelft.nl/record/uuid:79406c06-ab43-4cba-9136-cb8243e891ed)
+	- Pulls weather data from ENTSOE!
 	
 	
 	
