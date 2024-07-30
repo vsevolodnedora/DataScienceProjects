@@ -86,7 +86,7 @@
 
 # Energy projects with ENTSOE data
 
-## Project to check: 1,2,15,18,20,22
+## Project to check: 1,2,15,18,20,22,(24)
 
 1. [derevirn/renewcast](https://github.com/derevirn/renewcast)
 	- [app](http://renewcast.giannis.io/)
@@ -155,7 +155,7 @@
 	
 18. [pohlchri/transformer_time_thesis](https://github.com/pohlchri/transformer_time_thesis)
 	- Potential of transformer time series models for the energy sector - Master's Thesis by Christin Pohl
-	- Data from [OpenPowerSystemData](https://data.open-power-system-data.org/time_series/2020-10-06) file: time_series_60min_singleindex.csv 
+	- STATIC Data from [OpenPowerSystemData](https://data.open-power-system-data.org/time_series/2020-10-06) file: time_series_60min_singleindex.csv 
 	- Data was prepared using [GitHub](https://github.com/Open-Power-System-Data/time_series)
 	
 19. [JulesJ1/Energy_Consumption_Forecasting](https://github.com/JulesJ1/Energy_Consumption_Forecasting)
@@ -165,6 +165,7 @@
 20. [tightdelay/Short_Term_Carbon_Intensity_Forecasting](https://github.com/tightdelay/Short_Term_Carbon_Intensity_Forecasting)
 	- Keywords: smart home, carbon emissions, forcasting, temporal fusions transformers, 50Hertz, Aprion, Tennet, Transnet
 	- This thesis focuses on predicting carbon intensity across the four German Transmission System Operators (TSO) zones: 50Hertz, Amprion, Tennet, and TransnetBW. The data sets are enriched by weather and market price data.
+	- a lot of notebooks
 	
 21. [https://github.com/DarioHett/entsoe-client](entsoe-client)
 	- Formulate human-readable queries and retrieve data from ENTSO-E into pandas.DataFrame format.
@@ -174,5 +175,11 @@
 	- S.C.A.L.E. (Scheduler for Carbon-Aware Load Execution) [thesis](https://repository.tudelft.nl/record/uuid:79406c06-ab43-4cba-9136-cb8243e891ed)
 	- Pulls weather data from ENTSOE!
 	
+23. [PyPSA/powerplantmatching](https://github.com/PyPSA/powerplantmatching)
+	- A toolset for cleaning, standardizing and combining multiple power plant databases.
 	
+24. [KIT-IAI/Transformer-Networks-for-Electrical-Load-Time-Series-Forecasting](https://github.com/KIT-IAI/Transformer-Networks-for-Electrical-Load-Time-Series-Forecasting)
+	- forcasting energy market using transformer architectures (MASTER THESIS) [analysis of ATTENTION model]
+	- uses static, 'open-power-system-data' data from 2020
+
 	
