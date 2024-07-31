@@ -87,6 +87,7 @@
 # Energy projects with ENTSOE data
 
 ## Project to check: 1,2,15,18,20,22,(24)
+## Aps: 28,29,30
 
 1. [derevirn/renewcast](https://github.com/derevirn/renewcast)
 	- [app](http://renewcast.giannis.io/)
@@ -182,4 +183,29 @@
 	- forcasting energy market using transformer architectures (MASTER THESIS) [analysis of ATTENTION model]
 	- uses static, 'open-power-system-data' data from 2020
 
+25. [olemagnp/entsoeAPI](https://github.com/olemagnp/entsoeAPI)
+	- Entsoe Day-Ahead Electricity Price Fetcher
+	- Uses FOREX and ENTISE XML files to get prices, no examples, just a library for APIs
+
+26. [jrajaniemi/Spot](https://github.com/jrajaniemi/Spot)
+	- Simple single python file to get prices from A44 form from ENTSO-E platform
 	
+27. [ElisNycander/nordic_model](https://github.com/ElisNycander/nordic_model)
+	- Huge code to model energy grid dispatch
+	- This is ODIN, an Open DIspatch model for the Nordic power system. More details of the model are provided in [1]. If you use the whole or parts of the model, please cite the paper.
+	- [paper](https://www.sciencedirect.com/science/article/pii/S2211467X21001589?via%3Dihub)
+
+28. [mt7180/energy-dashboard](https://github.com/mt7180/energy-dashboard)
+	- A project to visualize power generation data for the pan-European market obtained from ENTSO-E and Energy_Charts. A streamlit, plotly, pandas, httpx/ trio (async requests) project.
+	- beautifl app taht uses ENTSO-E data (custom requests) 
+	- not released
+
+29. [derevirn/renewcast](https://github.com/derevirn/renewcast)
+	- [fotk](https://github.com/Aquilescool/renewcast)
+	- Simple, documented, but old app deployed on streamlit
+	- A web app that provides forecasts for renewable energy generation of EU countries, based on Streamlit and sktime. The app has been deployed on Heroku (does not work)
+	- [meidum](https://towardsdatascience.com/forecasting-renewable-energy-generation-with-streamlit-and-sktime-ab789ef1299f)
+	
+30. [aurlien/motstrom](https://github.com/aurlien/motstrom)
+	- uses entsoe-client to fetch prices from documents
+	- exptremely simple, not deployable
