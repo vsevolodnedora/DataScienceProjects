@@ -86,7 +86,7 @@
 
 # Energy projects with ENTSOE data
 
-## Project to check: 1,2,15,18,20,22,(24)
+## Project to check: 1,2,15,18,20,22,(24),(32),(33)
 ## Aps: 28,29,30
 
 1. [derevirn/renewcast](https://github.com/derevirn/renewcast)
@@ -209,3 +209,28 @@
 30. [aurlien/motstrom](https://github.com/aurlien/motstrom)
 	- uses entsoe-client to fetch prices from documents
 	- exptremely simple, not deployable
+	
+31. [afry/energy-trading-simulator](https://github.com/afry/energy-trading-simulator)
+	- Energy trading simulator developed by AFRY for the Jonstaka research project
+	- This projects simulates energy trades within a local energy community (LEC). It has been developed for a research project funded by Energimyndigheten, focusing on a planned development by Tornet Bostadsproduktion AB, at Jonstaka in Varberg, Sweden.
+	- HIGE repositiry
+	
+32. [AyrtonB/Merit-Order-Effect](https://github.com/AyrtonB/Merit-Order-Effect)
+	- Code and analysis used for calculating the merit order effect of renewables on price and carbon intensity of electricity markets
+	- has notebooks that download data and analyze it with explanations
+	- also uses [energy-charts](https://energy-charts.info/index.html?l=en&c=DE)
+	
+33. [NOWUM/entso-monitor](https://github.com/NOWUM/entso-monitor)
+	- ENTSO-E and ENTSO-G (gas) Monitor; This is a software project developed for the AMI Master at FH Jülich
+	- Downloads and analysis data from these platforms
+	- see notebooks
+
+34. [freol35241/esther](https://github.com/freol35241/esther)
+	- Has examples of nordpool API calls (only Sweden)
+	- Esther is an Economically Smart Thermostat which runs continuous, online optimizations using a Model Predictive Control (MPC) scheme to minimize your heating cost.
+	
+35. [Carterbouley/ElectricityPricePrediction](https://github.com/Carterbouley/ElectricityPricePrediction)
+	- Day Ahead Electricity Price Prediction
+	- Also uses Coal; Natural Gas; Uranium; Oil
+	- Old project; GOOD EDA
+	
