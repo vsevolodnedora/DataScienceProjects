@@ -224,6 +224,8 @@
 	- ENTSO-E and ENTSO-G (gas) Monitor; This is a software project developed for the AMI Master at FH Jülich
 	- Downloads and analysis data from these platforms
 	- see notebooks
+	- see also [berthubert/gazproject](https://github.com/berthubert/gazproject) for the use of Entose-G
+	- entso-g also has a python API [nhcb/entsog-py](https://github.com/nhcb/entsog-py)
 
 34. [freol35241/esther](https://github.com/freol35241/esther)
 	- Has examples of nordpool API calls (only Sweden)
