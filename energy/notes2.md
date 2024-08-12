@@ -86,7 +86,7 @@
 
 # Energy projects with ENTSOE data
 
-## Project to check: 1,2,15,18,20,22,(24),(32),(33)
+## Project to check: 1,2,15,18,20,22,(24),(32),(33),37
 ## Aps: 28,29,30
 
 1. [derevirn/renewcast](https://github.com/derevirn/renewcast)
@@ -235,4 +235,12 @@
 	- Day Ahead Electricity Price Prediction
 	- Also uses Coal; Natural Gas; Uranium; Oil
 	- Old project; GOOD EDA
+
+36. [piekarsky/Short-Term-Electricity-Price-Forecasting-at-the-Polish-Day-Ahead-Market](https://github.com/piekarsky/Short-Term-Electricity-Price-Forecasting-at-the-Polish-Day-Ahead-Market)
+	- This repository contains the experimental source code for short term (24 hour advance) electricity price forecasting at the Polish SPOT (Day-Ahead-Market) market including RNN, LSTM, GRU, MLP and Prophet models.
+Models using both the delayed exogenous variable and the endogenous variables from the forecast period and their delayed values for forecasting.
 	
+37. [vividfog/nordpool-predict-fi](https://github.com/vividfog/nordpool-predict-fi)
+	- This is a Python app that predicts electricity prices for the Nordpool FI market. It fetches a 5-day weather forecast and more, and uses them to predict future Nordpool FI electricity prices, using a trained Random Forest model.
+	- [app](https://sahkovatkain.web.app/)
+	- very well developed project. Uses random forest to forcast prices
