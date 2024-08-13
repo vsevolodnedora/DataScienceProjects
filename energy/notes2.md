@@ -18,6 +18,7 @@
 	- Repo from [book](https://www.packtpub.com/en-us/product/modern-time-series-forecasting-with-python-9781803246802)
 	- Modern Time Series Forecasting with Python, published by Packt
 	- Explore industry-ready time series forecasting using modern machine learning and deep learning
+	- [Modern-Time-Series-Forecasting-with-Python-2E](https://github.com/PacktPublishing/Modern-Time-Series-Forecasting-with-Python-2E)
 	
 4. [thuml/Time-Series-Library](https://github.com/thuml/Time-Series-Library/)
 	- A Library for Advanced Deep Time Series Models.
@@ -86,8 +87,8 @@
 
 # Energy projects with ENTSOE data
 
-## Project to check: 1,2,15,18,20,22,(24),(32),(33),37
-## Aps: 28,29,30
+## Project to check: 1,2,15,18,20,22,(24),(32),(33),37,38
+## Aps: 28,29,30,37
 
 1. [derevirn/renewcast](https://github.com/derevirn/renewcast)
 	- [app](http://renewcast.giannis.io/)
@@ -244,3 +245,19 @@ Models using both the delayed exogenous variable and the endogenous variables fr
 	- This is a Python app that predicts electricity prices for the Nordpool FI market. It fetches a 5-day weather forecast and more, and uses them to predict future Nordpool FI electricity prices, using a trained Random Forest model.
 	- [app](https://sahkovatkain.web.app/)
 	- very well developed project. Uses random forest to forcast prices
+	
+38. [redvjames/residential-energy_prediction.git](https://github.com/redvjames/residential-energy_prediction)
+	- A Project for Machine Learning 3 Course of Asian Institute of Management's Master of Science in Data Science 2023
+	- Extremely well-documented notebook
+	- Uses static datar for one house.
+	
+39. [Guan-t7/myTLAE](https://github.com/Guan-t7/myTLAE)
+	- My impl. of Temporal Latent Auto-Encoder (TLAE)
+	- TLAE decomposes high dimensional multivariate time series into a few basis series using MLPs, producing global predictions.
+	- [2101.10460](https://arxiv.org/abs/2101.10460)
+	- Uses static datasets from google drive (same as DeepGLO) 
+
+40. [rajatsen91/deepglo](https://github.com/rajatsen91/deepglo)
+	- Think Globally, Act Locally: A Deep Neural Network Approach to High-Dimensional Time Series Forecasting
+	- [1905.03806](https://arxiv.org/abs/1905.03806)
+	- Undocumented
