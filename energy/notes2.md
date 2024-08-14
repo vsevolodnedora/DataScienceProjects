@@ -1,4 +1,5 @@
 # ALL DATA
+
 [Jcharis/DataScienceTools](https://github.com/Jcharis/DataScienceTools)
 [bchapuis/awesome-spatial-data](https://github.com/bchapuis/awesome-spatial-data)
 
@@ -27,6 +28,10 @@
 5. [Capsar/The-Rise-of-Diffusion-Models-in-Time-Series-Forecasting](https://github.com/Capsar/The-Rise-of-Diffusion-Models-in-Time-Series-Forecasting)
 	- Literature Survey about the available Diffusion Models capable of Time-Series Forecasting [paper](arxiv.org/abs/2401.03006) [revewPaper](arXiv:2407.13278)
 
+6. [stumpy](https://github.com/TDAmeritrade/stumpy) 
+	- STUMPY is a powerful and scalable Python library that efficiently computes something called the matrix profile
+	- [page](https://stumpy.readthedocs.io/en/latest/Tutorial_The_Matrix_Profile.html)
+	- search for analomalies, discors, etc... 
 ---
 
 # Data sources
