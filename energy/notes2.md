@@ -32,6 +32,13 @@
 	- STUMPY is a powerful and scalable Python library that efficiently computes something called the matrix profile
 	- [page](https://stumpy.readthedocs.io/en/latest/Tutorial_The_Matrix_Profile.html)
 	- search for analomalies, discors, etc... 
+
+7. [sktime](https://github.com/sktime/sktime) 
+	- [release](https://www.sktime.net/en/stable/)
+	- sktime is a library for time series analysis in Python. It provides a unified interface for multiple time series learning tasks. 
+	
+8. [open-sustainable-technology](https://github.com/protontypes/open-sustainable-technology)
+	- A directory and analysis of the open source ecosystem in the areas of climate change, sustainable energy, biodiversity and natural resources.
 ---
 
 # Data sources
@@ -266,3 +273,8 @@ Models using both the delayed exogenous variable and the endogenous variables fr
 	- Think Globally, Act Locally: A Deep Neural Network Approach to High-Dimensional Time Series Forecasting
 	- [1905.03806](https://arxiv.org/abs/1905.03806)
 	- Undocumented
+	
+41. [mohcinemadkour/renewcastapp](https://github.com/mohcinemadkour/renewcastapp)
+	- A web app that provides forecasts for renewable energy generation of EU countries, based on Streamlit and sktime. The app has been deployed on Heroku and is available
+	- Uses sktime for anlaysis
+	- has app deployed on herocu but it does not work anymore
