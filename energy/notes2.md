@@ -1,11 +1,71 @@
+# Intorduction
+
+## Project to check: 1,2,15,18,20,22,(24),(32),(33),37,38
+## Aps: 28,29,30,37,45
+
+
+
+# Pages
+
+- [elia_imbalance](https://www.elia.be/en/grid-data/balancing/current-system-imbalance)
+- [terna_energy](https://www.terna-energy.com/)
+- [entso-e](https://transparency.entsoe.eu/)
+- [montel](https://www.enappsys.com/market-data-platform/)
+- [AleaSoft](https://aleasoft.com/energy-markets/epex-spot-germany-prices-demand/)
+- [nordpool](https://www.nordpoolgroup.com/en/market-data12/Intraday/Market-data1/Market-data1/Overview/?dd=50HZ&view=table)
+- [Elexon_BSC](https://developer.data.elexon.co.uk/)
+- [pvg_tools](https://re.jrc.ec.europa.eu/pvg_tools/en/#api_5.2)
+
+
+
+
+# papers
+
+- [Machine Learning Solutions for Offshore Wind Farms: A Review of Applications and Impacts](https://www.mdpi.com/2077-1312/11/10/1855)
+- [Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting](https://arxiv.org/pdf/2106.13008)
+- [An open dispatch model for the Nordic power system](https://www.sciencedirect.com/science/article/pii/S2211467X21001589?ref=pdf_download&fr=RR-2&rr=8ac4a3d2291e70fd)
+- [Electricity market price forecasting using ELM and Bootstrap analysis: A case study of the German and Finnish Day-Ahead markets](https://www.sciencedirect.com/science/article/pii/S0306261924004410?ref=pdf_download&fr=RR-2&rr=8aab65e8e86a8d8b)
+- [Open-data based carbon emission intensity signals for electricity generation in European countries – top down vs. bottom up approach](https://www.sciencedirect.com/science/article/pii/S2772783122000176)
+
+
+
+
+# Kaggle
+
+- [datasets_energy_demand_and_weather](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather)
+- [notebook_elect_price_forecast](https://www.kaggle.com/code/dimitriosroussis/electricity-price-forecasting-with-dnns-eda)
+- [Time Series Splitting Techniques](https://www.kaggle.com/competitions/rohlik-orders-forecasting-challenge/discussion/513106)
+- [forecasting-statistical-learning](https://www.kaggle.com/code/yantxx/rohlik-forecasting-statistical-learning)
+
 # ALL DATA
 
-[Jcharis/DataScienceTools](https://github.com/Jcharis/DataScienceTools)
-[bchapuis/awesome-spatial-data](https://github.com/bchapuis/awesome-spatial-data)
+- [cleanenergywire](https://www.cleanenergywire.org/factsheets/germanys-energy-consumption-and-power-mix-charts)
+- [Jcharis/DataScienceTools](https://github.com/Jcharis/DataScienceTools)
+- [bchapuis/awesome-spatial-data](https://github.com/bchapuis/awesome-spatial-data)
+- [energyquantified](https://pypi.org/project/energyquantified/) 
+	- Curated historical data and forecasts for prices, fundamentals, REMIT, hydrology and all other related market information.
+	- Requires orivate API key
+	- [web](https://www.energyquantified.com/)
+	- [GitHub](https://github.com/energyquantified/eq-python-client)
+- [openweathermap](https://openweathermap.org/api)
+	- requires paid-for API and purchase for historic data
+	- [medium_weather_app](https://max-coding.medium.com/create-a-weather-map-using-openweather-api-in-python-f048473ca6ae)
+- [renewables.ninja](https://www.renewables.ninja/)
+	- Used in open-power-system-data
+- [awattar](https://www.awattar.at/services/charts/hourly)
+	- Weather in Ostereich (austria)
 
----
+- [open-power-system-data](https://open-power-system-data.org/)
+	- Conventional power plants	List of conventional power plants in Germany and European countries	2020-10-01	Docs
+	- National generation capacity	Aggregated generation capacity by technology and country	2020-10-01	Docs
+	- Renewable power plants	List of renewable energy power stations	2020-08-25	Docs
+	- Time series	Load, wind and solar, prices in hourly resolution	2020-10-06	Docs
+	- Weather Data	Hourly geographically aggregated weather data for Europe	2020-09-16	Docs
+
+
 
 # Lecures and course 
+
 1. [pitmonticone/EnergySystemModelling](https://github.com/pitmonticone/EnergySystemModelling)
 	- Resources for the Energy System Modelling course by Tom Brown at Karlsruhe Institute of Technology (2020).
 	- 12 videos on utube
@@ -39,24 +99,27 @@
 	
 8. [open-sustainable-technology](https://github.com/protontypes/open-sustainable-technology)
 	- A directory and analysis of the open source ecosystem in the areas of climate change, sustainable energy, biodiversity and natural resources.
----
+
+
 
 # Data sources
+
 [ENTSNOE](https://transparency.entsoe.eu/dashboard/show)
 	- Sources: 
 		- [statistics](https://www.entsoe.eu/data/power-stats/)
 	- [python API](https://pypi.org/project/entsoe-py/) [github](https://github.com/EnergieID/entsoe-py)
 	- [python API with prices](https://pypi.org/project/entsoe-client/) [github](https://github.com/DarioHett/entsoe-client)
 	- [info](https://thesmartinsights.com/how-to-query-data-from-the-entso-e-transparency-platform-using-python/)
-	- Projects that use it: 1., 2.
 	- API keys found
 		- 94aa148a-330b-4eee-ba0c-8a5eb0b17825
 		- c93c7111-9e18-49be-b42c-ceeed9aabfb2s
+		- 7c446d21-2267-42a1-8bd0-da76b7c6d9ae
 	- Repos: 7.
 
 [JAO](https://www.jao.eu/) [jao-api](https://www.jao.eu/page-api/market-data) 
 	- Cross-border electricity capacity allocation in Europe
 	- [python](https://pypi.org/project/jao-py/)
+	- [github](https://github.com/fboerman/jao-py)
 	- API key reqTocken: c93c7111-9e18-49be-b42c-ceeed9aabfb2
 	
 [elia](https://www.elia.be/en/)
@@ -83,24 +146,13 @@
 	- Data for geopandas about countires: 
 	- Free vector and raster map data at 1:10m, 1:50m, and 1:110m scales
 
-## Historic (not updated data)
-
 [pvg_tools](https://re.jrc.ec.europa.eu/pvg_tools/en/#HR)
 	- Solar energy on a map
 
----
 
-# Energy projects apps
 
-1. [pekkon/EnergiaDataApp](https://github.com/pekkon/EnergiaDataApp)
-	- EnergiaDataApp is a tool to look into Finnish wind power and other power system data
-	- Multipage app
----
 
-# Energy projects with ENTSOE data
-
-## Project to check: 1,2,15,18,20,22,(24),(32),(33),37,38
-## Aps: 28,29,30,37
+# Energy projects
 
 1. [derevirn/renewcast](https://github.com/derevirn/renewcast)
 	- [app](http://renewcast.giannis.io/)
@@ -149,6 +201,7 @@
 13. [MathiasSteilen/RWE-ETH-Power-Trading](https://github.com/MathiasSteilen/RWE-ETH-Power-Trading)
 	- ETH Zurich Statistics Lab: Collaborating with RWE on European Cross Border Power Trading
 	- Examples on loading / visualizing data; Large Repo
+	- uses [JAO](https://pypi.org/project/jao-py/) api 
 	
 14. [Guli-Y/ElectricityPricePredictor](https://github.com/Guli-Y/ElectricityPricePredictor)
 	- Developed a time series model for forecasting day-ahead electricity prices of biding zone DK1 (Denmark) using data from Entsoe and OpenWeatherMap. Model performance is evaluated using walk-forward validation and MAPE/MASE
@@ -161,7 +214,7 @@
 16. [JonJae/TimeSeriesPrediction_FeedInMngmt](https://github.com/JonJae/TimeSeriesPrediction_FeedInMngmt)
 	- Prediction of Renewable Power Loss caused by Feed-in Management Events
 	- Final project at the Data Science Bootcamp @neuefische. This project has been developed in 4 weeks in the fall of 2020 by Tjade Appel (LinkedIn / GitHub) and Jonas Jaenicke (LinkedIn / GitHub). Please feel free to contact us.
-	- NO DATA ; wery good EDA ; targreted to a single windmill
+	- NO DATA ; very good EDA ; targreted to a single windmill
 
 17. [MohamedAitHassoun/Predictions-of-solar-energy-production-using-the-LSTM-model-with-an-attention-mechanism](https://github.com/MohamedAitHassoun/Predictions-of-solar-energy-production-using-the-LSTM-model-with-an-attention-mechanism)
 	- Predictions of Solar Energy Production Using the LSTM Model with an Attention Mechanism
@@ -278,3 +331,29 @@ Models using both the delayed exogenous variable and the endogenous variables fr
 	- A web app that provides forecasts for renewable energy generation of EU countries, based on Streamlit and sktime. The app has been deployed on Heroku and is available
 	- Uses sktime for anlaysis
 	- has app deployed on herocu but it does not work anymore
+	
+42. [fastforwardlabs/structural-time-series](https://github.com/fastforwardlabs/structural-time-series)
+	- This repo accompanies the Cloudera Fast Forward report Structural Time Series. It provides an example application of generalized additive models (via the Prophet library) to California hourly electricity demand data.
+	- It provides an example application of generalized additive models (via the Prophet library) to California hourly electricity demand data.
+	
+43. [bgunyel/electricity-load-forecasting](https://github.com/bgunyel/electricity-load-forecasting)
+	- very large application that fetches energy (ENTSOE) and weather (asos) data and makes forcast
+	
+44. [pervcomp/Procem](https://github.com/pervcomp/Procem)
+	- Social Energy – Prosumer Centric Energy Ecosystem (ProCem)
+	- [project](https://www.senecc.fi/projects/procem-2)
+	- very large project, uses nordpool data
+	
+45. [pekkon/EnergiaDataApp](https://github.com/pekkon/EnergiaDataApp)
+	- EnergiaDataApp is a tool to look into Finnish wind power and other power system data
+	- Multipage app 
+	
+46. [jrajaniemi/Spot](https://github.com/jrajaniemi/Spot)
+	- Prices from ENTSO-E (A44 form parser) 
+
+47. [PyPSA/nowcast](https://github.com/PyPSA/nowcast)
+	- Large project for energy system simulation [result](https://model.energy/future/) by [Tom Brown](https://nworbmot.org/)
+	- Fetches data from SMARD via an API
+	
+48. [entsoe_price_components](https://github.com/olemagnp/entsoe_price_components)
+	- Seems to be using day ahead and something else. Old repository, No documentation
