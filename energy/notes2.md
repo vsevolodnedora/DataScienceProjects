@@ -357,3 +357,9 @@ Models using both the delayed exogenous variable and the endogenous variables fr
 	
 48. [entsoe_price_components](https://github.com/olemagnp/entsoe_price_components)
 	- Seems to be using day ahead and something else. Old repository, No documentation
+	
+49. [rlaker/Hackathon](https://github.com/rlaker/Hackathon)
+	- We attempted to optimise the cumulative profit from a battery that can charge and discharge (selling and buying energy at a time varying price) [webpage](https://www.ronanlaker.com/projects/hackathon/)
+	- Uses reinforcment learning with [gym](https://gymnasium.farama.org/)
+	- uses 'spot_intraday_price' that are NOT present but are here [hakathon](https://github.com/Imperial-College-Data-Science-Society/aihack22-electricity)
+	- Fixed data, requires additional information.
